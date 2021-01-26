@@ -23,12 +23,17 @@ body{
 	margin: auto;
 }
 
+.container {
+  height: 100%;
+  align-content: center;
+}
+
 .user_card {
   height: 400px;
   width: 350px;
   margin-top: auto;
   margin-bottom: auto;
-  background:transparent;
+  background: transparent;
   position: relative;
   display: flex;
   justify-content: center;
@@ -38,4 +43,17 @@ body{
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 5px;
+}
+
+.login_btn {
+  align-content: center;
+  width: 50%;
+  background: #3394CB !important;
+  color: white !important;
+}
+
+
+.links a{
+  margin-left: 4px;
+  color: white;
 }
