@@ -52,6 +52,13 @@ body{
   color: white !important;
 }
 
+.register_btn {
+  align-content: center;
+  width: 50%;
+  background: #3394CB !important;
+  color: white !important;
+}
+
 
 .links a{
   margin-left: 4px;
